@@ -13,10 +13,10 @@ export class AppComponent {
 
   private test() {
     this.ngxPendoService.initialize({
-      id: '123-abc-123',
-      name: 'test'
+      id: '1234',
+      name: 'test1234'
     }, {
-      id: '123-abc-123'
+      id: '1234'
     });
   }
 
